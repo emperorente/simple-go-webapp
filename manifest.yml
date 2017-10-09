@@ -4,5 +4,6 @@ applications:
   memory: 128M
   instances: 1
   host: simple-go-webapp
+  random-route: true
   command: bin/simple-go-webapp
   buildpack: go_buildpack
